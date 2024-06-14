@@ -26,7 +26,7 @@ jobs:
     - name: Build and Deploy
       run: npm run build && npm run deploy
 git init
-git remote add origin https://github.com/username/repository.git
+git remote add origin https://github.com/ItsMohzy/repository.git
 git checkout -b feature/awesome-feature
 git add .
 git commit -m "Implement awesome feature"
